@@ -21,9 +21,9 @@ export default {
       },
     },
     {
-      name: "pageBuilder",
+      name: "pageBlocks",
       type: "array",
-      title: "Page builder",
+      title: "Page Blocks",
       of: [
         { type: "hero" },
         { type: "textWithIllustration" },
@@ -31,7 +31,7 @@ export default {
         { type: "gallery" },
         { type: "form" },
         { type: "video" },
-        { type: "services" }
+        { type: "services" },
       ],
     },
   ],
