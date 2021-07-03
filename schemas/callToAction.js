@@ -9,14 +9,9 @@ export default {
       title: "Heading",
     },
     {
-      name: "linkText",
-      type: "string",
-      title: "Link Text",
-    },
-    {
-      name: "url",
-      type: "url",
-      title: "URL",
+      name: "link",
+      type: "link",
+      title: "Link",
     },
   ],
 };
