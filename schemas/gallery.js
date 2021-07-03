@@ -21,7 +21,6 @@ export default {
       title: "Images",
       of: [
         {
-          name: "image",
           type: "img",
           title: "Image",
         },
