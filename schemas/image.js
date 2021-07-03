@@ -1,16 +1,13 @@
 export default {
-    name: "image",
+    name: "img",
     type: "image",
     title: "Image",
-    options: {
-        hotspot: true,
-    },
     fields: [
         {
-            name: "alt",
+            name: "altText",
             type: "string",
             title: "Alternative text",
-            validation: (Rule) => Rule.required().min(10).max(80),
+            validation: (Rule) => Rule.required().min(3).max(120),
         },
     ],
 }

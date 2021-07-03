@@ -2,6 +2,12 @@ export default {
   name: "hero",
   type: "object",
   title: "Hero",
+  preview: {
+    select: {
+      title: "name",
+      media: "image"
+    }
+  },
   fields: [
     {
       name: "name",
@@ -21,7 +27,7 @@ export default {
     },
     {
       name: "image",
-      type: "image",
+      type: "img",
       title: "Image",
     },
   ],

@@ -2,6 +2,9 @@ export default {
   name: "textCard",
   type: "object",
   title: "Text Card",
+  preview: {
+    title: "heading",
+  },
   fields: [
     {
       name: "heading",

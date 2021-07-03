@@ -2,6 +2,12 @@ export default {
   name: "imageCard",
   type: "object",
   title: "Image Card",
+  preview: {
+    select: {
+      title: "name",
+      media: "image",
+    }
+  },
   fields: [
     {
       name: "name",
@@ -10,7 +16,7 @@ export default {
     },
     {
       name: "image",
-      type: "image",
+      type: "img",
       title: "Image",
     },
   ],

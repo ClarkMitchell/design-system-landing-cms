@@ -22,7 +22,7 @@ export default {
       of: [
         {
           name: "image",
-          type: "image",
+          type: "img",
           title: "Image",
         },
       ],

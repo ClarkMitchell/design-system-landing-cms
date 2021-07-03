@@ -10,7 +10,7 @@ export default {
     },
     {
       name: "logo",
-      type: "image",
+      type: "img",
       title: "Logo",
     },
     {

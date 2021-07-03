@@ -16,6 +16,7 @@ import textWithIllustration from './textWithIllustration';
 import video from './video';
 import grid from './grid';
 import link from './link';
+import image from './image';
 import imageCard from './imageCard';
 import textCard from './textCard';
 import imageTextCard from './imageTextCard';
@@ -41,6 +42,7 @@ export default createSchema({
     video,
     grid,
     link,
+    image,
     imageCard,
     textCard,
     imageTextCard,

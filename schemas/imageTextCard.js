@@ -2,6 +2,12 @@ export default {
   name: "imageTextCard",
   type: "object",
   title: "Image & Text Card",
+  preview: {
+    select: {
+      title: "heading",
+      media: "image",
+    }
+  },
   fields: [
     {
       name: "heading",
@@ -15,7 +21,7 @@ export default {
     },
     {
       name: "image",
-      type: "image",
+      type: "img",
       title: "Image",
     },
   ],
