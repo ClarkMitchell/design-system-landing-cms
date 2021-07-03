@@ -17,7 +17,7 @@ export default {
       name: "nav",
       type: "array",
       title: "Nav",
-      of: [{ type: "url" }],
+      of: [{ type: "link" }],
     },
   ],
 };
