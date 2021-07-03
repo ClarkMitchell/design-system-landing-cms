@@ -1,23 +1,22 @@
 export default {
-  name: "hero",
+  name: "testimonial",
   type: "object",
-  title: "Hero",
+  title: "Testimonial",
   fields: [
     {
       name: "name",
       type: "string",
       title: "Name",
-      initialValue: "Hero",
     },
     {
-      name: "headline",
+      name: "position",
       type: "string",
-      title: "Headline",
+      title: "Position",
     },
     {
-      name: "subheadline",
-      type: "string",
-      title: "Sub Headline",
+      name: "quote",
+      type: "text",
+      title: "Quote",
     },
     {
       name: "image",

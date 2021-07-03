@@ -8,12 +8,19 @@ import header from './header';
 import callToAction from './callToAction';
 import form from './form';
 import hero from './hero';
-import imageGallery from './imageGallery';
+import gallery from './gallery';
 import page from './page';
 import service from './service';
 import services from './services';
 import textWithIllustration from './textWithIllustration';
 import video from './video';
+import grid from './grid';
+import link from './link';
+import imageCard from './imageCard';
+import textCard from './textCard';
+import imageTextCard from './imageTextCard';
+import testimonial from "./testimonial";
+import testimonials from "./testimonials";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -26,11 +33,18 @@ export default createSchema({
     callToAction,
     form,
     hero,
-    imageGallery,
+    gallery,
     page,
     service,
     services,
     textWithIllustration,
-    video
+    video,
+    grid,
+    link,
+    imageCard,
+    textCard,
+    imageTextCard,
+    testimonial,
+    testimonials,
   ]),
 })

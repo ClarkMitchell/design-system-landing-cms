@@ -32,6 +32,8 @@ export default {
         { type: "form" },
         { type: "video" },
         { type: "services" },
+        { type: "grid" },
+        { type: "testimonials" },
       ],
     },
   ],
