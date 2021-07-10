@@ -14,10 +14,18 @@ export default {
       title: "Logo",
     },
     {
+      name: "inHero",
+      type: "boolean",
+      title: "Nav is within Hero Section.",
+    },
+    {
       name: "nav",
       type: "array",
       title: "Nav",
       of: [{ type: "link" }],
     },
   ],
+  initialValue: {
+    inHero: false
+  }
 };
